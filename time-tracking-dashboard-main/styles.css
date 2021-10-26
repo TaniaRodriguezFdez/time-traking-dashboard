@@ -1,0 +1,268 @@
+body{
+   
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+}
+.container-general{
+    display: flex;
+    font-family:'Montserrat', sans-serif;
+    background-color:#232836;
+    width: 100%;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.name-photo--box{
+
+    background-color: #5A4FCC;
+    width: 215px;
+    height: 31%;
+    border-radius: 15px;
+    position: relative ;
+    z-index: 1;
+    top: 10px;
+    
+}
+.photo{
+
+    width: 80px;
+    height: 80px;
+    padding-top: 25px;
+    padding-left: 25px;
+    
+}
+.report-for{
+
+    font-size: 12px;
+    font-weight:bold;
+    margin-left: 30px;
+    margin-top: 25px;
+    color: rgb(176, 143, 252);
+}
+.Jeremy{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-bottom: 70px;
+    color: white;
+    
+}
+.daily-weekly-monthly{
+    width: 215px;
+    height: 15%;
+    background-color:#303356;
+    line-height: 100%;
+    padding-bottom:30px ;
+    border-radius: 0px 0px 15px 15px ;
+    
+}
+.Daily{
+    color:rgb(136, 114, 231);
+    margin-left: 25px;
+    padding-top: 30px;
+    font-size: 14px;
+}
+.Weekly{
+    margin-left: 25px;
+    font-weight:400;
+    color:white;
+    font-size: 14px;
+}
+.Monthly{
+    margin-left: 25px; 
+    color:rgb(136, 114, 231);
+    font-size: 14px;
+}
+.Work-icon--box{
+    background-image: url(./images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px top -9px;
+    border-radius: 15px ;
+    background-color: sandybrown;
+    height: 190px;
+    width: 215px;
+    
+}
+.Work-box{
+background-color:#303356;
+width: 215px;
+height: 160px;
+border-radius: 15px;
+position: relative ;
+z-index: 1;
+bottom: 148px;
+}
+.Work{
+    margin-left: 23px;
+    padding-top: 20px;
+    color:white
+}
+.hrs{
+    margin-left: 25px;
+    padding-top: 15px;
+    font-size:45px;
+    color:white;
+    font-weight: 400;
+}
+.last-week{
+    margin-left: 25px;
+    padding-top: 10px;
+    font-size: small;
+    color:white
+}
+.container-two{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.Play-icon--box{
+    background-image: url(./images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px top -9px;
+    border-radius: 15px ;
+    background-color: rgb(80, 165, 245);
+    height: 190px;
+    width: 215px;
+}
+.Play-box{
+    background-color:#303356;
+    width: 215px;
+    height: 160px;
+    border-radius: 15px;
+    position: relative ;
+    z-index: 1;
+    bottom: 148px;
+}
+.container-three{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.Play{
+    margin-left: 23px;
+    padding-top: 20px;
+    color:white
+}
+.container-four{
+    margin-top: 10px;
+    margin-left: 30px;
+   
+}
+.Study-icon--box{
+    background-image: url(./images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px top -9px;
+    border-radius: 15px ;
+    background-color: rgb(192, 107, 178);
+    height: 190px;
+    width: 215px;
+}
+.Study-box{
+    background-color:#303356;
+    width: 215px;
+    height: 160px;
+    border-radius: 15px;
+    position: relative ;
+    z-index: 1;
+    margin-top:-150px;
+}
+.Study{
+    margin-left: 23px;
+    padding-top: 20px;
+    color:white 
+}
+.container-five{
+    margin-top: 0px;
+    margin-left: 30px; 
+    margin-right: 30px;   
+}
+.Exercise-icon--box{
+    margin-top:-125px;
+    background-image: url(./images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px top -9px;
+    border-radius: 15px ;
+    background-color: rgb(87, 190, 134);
+    height: 190px;
+    width: 215px;
+}
+.Exercise-box{
+    background-color:#303356;
+    width: 215px;
+    height: 160px;
+    border-radius: 15px;
+    position: relative ;
+    z-index: 1;
+    margin-top:-150px;
+}
+.Exercise{
+    margin-left: 30px;
+    padding-top: 20px;
+    color:white 
+}
+
+.Social-icon--box{
+    margin-top:-125px;
+    
+    background-image: url(./images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px top -9px;
+    border-radius: 15px ;
+    background-color: rgb(104, 69, 201);
+    height: 190px;
+    width: 215px;
+}
+.Social-box{
+    background-color:#303356;
+    width: 215px;
+    height: 160px;
+    border-radius: 15px;
+    position: relative ;
+    z-index: 1;
+    margin-top:-150px;
+}
+.Social{
+    margin-left: 30px;
+    padding-top: 20px;
+    color:white  
+}
+.container-Seven{
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.SelfCare-icon--box{
+    margin-top:-125px;
+    
+    background-image: url(./images/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px top -9px;
+    border-radius: 15px ;
+    background-color: rgb(230, 205, 94);
+    height: 190px;
+    width: 215px;
+}
+.SelfCare-box{
+    background-color:#303356;
+    width: 215px;
+    height: 160px;
+    border-radius: 15px;
+    position: relative ;
+    z-index: 1;
+    margin-top:-150px;
+}
+.SelfCare{
+    margin-left: 30px;
+    padding-top: 20px;
+    color:white  
+}
+.container-two-three-four{
+    display:flex;
+    
+   
+}
+.container-five-six-seven{
+    display:flex;
+    
+}
+
+
